@@ -1,0 +1,96 @@
+tt, code, pre {
+    font-family: "Inconsolata", "Menlo", "DejaVu Sans Mono", "Courier";
+    font-size: medium;
+}
+
+pre {
+    font-size: 90%;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Eras Demi ITC", sans-serif;
+    font-weight: normal
+}
+
+body {
+    background-color: white;
+    margin-left: 2em;
+    margin-right: 1em;
+    font-family: "Georgia", serif;
+    font-size: medium;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-bottom: 1.2em;
+}
+
+h2 {
+    font-size: x-large;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: large;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: medium;
+    margin-bottom: 1em;
+}
+
+h5 {
+    font-size: medium;
+    margin-bottom: 1em;
+}
+
+h6 { 
+    font-size: medium;
+    margin-bottom: 1em;
+}
+
+.definition {
+    margin-bottom: 1.5em;
+}
+
+.definition-kind {
+    float: right;
+}
+
+caption {
+    caption-side: bottom;
+    margin-top: 1em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+div.sidebar {
+    float: left;
+    position: fixed;
+    width: 230px;
+    font-size: small;
+}
+
+div.sidebar > ul {
+    padding: 0;
+}
+
+div.body {
+    margin-left: 250px;
+}
+
+pre.source-code {
+    background-color: #eee;
+    border: 1px solid #888;
+    padding: 1em;
+    white-space: pre;
+}

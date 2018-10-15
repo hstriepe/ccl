@@ -1,0 +1,55 @@
+/* emWave Help emwave_access.css
+Based on the Apple example for iTunes and other application help
+4-17-08 Modified by Sue L.
+12-17-08 - Harald S.
+*/
+/* Design for emWave Mac to match other Apple Application Help*/
+#row1   { visibility: visible; position: relative; height: 60px; margin-bottom: 10px; }
+#row2     { margin-left: 10px; padding-top: 2px; position: relative; margin-bottom: 12px; }
+#icon   { margin-top: 2px; margin-left: 6px; position: absolute; top: 34px; left: 12px; height: 32px;}
+#title   {
+	margin-top: -6px;
+	position: absolute;
+	top: 38px;
+	left: 60px;
+	width: 191px;
+}
+
+body { color: black; background-color: white; margin-top: 0; margin-bottom: 0; margin-left: 0; }
+p { font-size: 0.75em; font-family: "Lucida Grande", Arial, sans-serif }
+h1 { color: black; font-size: 1.4em; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; margin-top: 8px; margin-bottom: 0 }
+h2 { font-size: 16px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; margin-top: 0; margin-bottom: 0; padding-left: 8px; }
+h3 { font-size: 15px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; margin: -2px 0 0; }
+a { color: #778fbd; font-family: "Lucida Grande", Arial, sans-serif; text-decoration: none }
+td {  }
+ul { list-style-image: url(../gfx/bullet.gif); margin-top: 10px; margin-right: 6px; margin-left: -38px }
+li  { font-size: 0.7em; font-family: "Lucida Grande", Arial, sans-serif; list-style-type: disc; margin-top: 0; margin-bottom: 8px ; list-style-image: url(../gfx/bullet.gif); }
+a:hover { text-decoration: underline }
+a:visited { color: navy }
+.lgtxt { color: blue; font-size: 11pt; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; margin: 8px 0 0; }
+.lgtxtlast { color: blue; font-size: 13px; font-family: "Lucida Grande", Arial, sans-serif; margin: 0 0 0; }
+.links { font-weight: bold; margin-top: 6px; margin-bottom: 0; }
+.index { color: #666; font-size: 8pt; margin: -9px 0 -6px; padding-top: 24px; padding-bottom: 4px; padding-left: 8px; border-left: 1px solid #bfbfbf
+	  }
+.um { background-image: url(../gfx/border_top.gif); order-bottom-style: solid; order-right-style: solid; }
+.ml { background-image: url(../gfx/border_left.gif); }
+.mr { background-image: url(../gfx/border_right.gif); }
+.lm { background-image: url(../gfx/border_bottom.gif); }
+.mm { padding-top: 0; padding-bottom: 0; }
+.ucl { background-image: url(../gfx/border_topleft.gif); }
+.ucr { background-image: url(../gfx/border_topright.gif); }
+.lcl { background-image: url(../gfx/border_bottomleft.gif); }
+.lcr { background-image: url(../gfx/border_bottomright.gif); }
+.smlgray { color: black; font-size: 8pt; line-height: 12pt; margin-top: 0; margin-bottom: 4px; padding-right: 12px; }
+.linkslast { margin-top: 6px; margin-bottom: 0; }
+.caps { color: #666; font-size: 8pt; text-transform: uppercase; letter-spacing: 1px; }
+.um2 { background-image: url(../gfx/access_border_top.gif); order-bottom-style: solid; order-right-style: solid; }
+.ml2 { background-image: url(../gfx/access_border_left.gif); }
+.mr2 { background-image: url(../gfx/access_border_right.gif); }
+.lm2 { background-image: url(../gfx/access_border_bottom.gif); }
+.mm2 { padding-top: 0; padding-bottom: 0; }
+.ucl2 { background-image: url(../gfx/access_border_topleft.gif); }
+.ucr2 { background-image: url(../gfx/access_border_topright.gif); }
+.lcl2 { background-image: url(../gfx/access_border_bottomleft.gif); }
+.lcr2 { background-image: url(../gfx/access_border_bottomright.gif); }
+.spacer { position: relative; margin-top: 6px; margin-bottom: 6px; }
